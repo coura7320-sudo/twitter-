@@ -13,12 +13,57 @@ body {
   min-height: 96vh;
 }
 header {
-  background: yellow;
+  /* background: yellow; */
   padding: 10px;
 }
 main {
-  background: green;
+  /* background: green; */
   padding: 10px;
+  display: flex;
+  /* border: 1px solid red; */
+  h1,
+  h4 {
+    color: white;
+  }
+  aside {
+    /* background: purple; */
+    padding: 10px;
+    width: 20%;
+    /* border: 1px solid red; */
+    img {
+      /* border: 1px solid green; */
+      width: 100%;
+    }
+  }
+  div {
+    /* background: orange; */
+    padding: 10px;
+    flex: 1;
+  }
+  .separator {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .borders {
+    border: 1px solid grey;
+    height: 0.1px;
+    width: 100%;
+  }
+  .info {
+    color: grey;
+    font-size: 12px;
+    margin: 0 10px;
+    span {
+      color: blue;
+    }
+  }
+  .bars {
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }
 footer {
   /* background: blue; */
